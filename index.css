@@ -1,0 +1,247 @@
+/* html,
+body {
+  overflow: hidden;
+} */
+body {
+  /* border:1px solid black; */
+  width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 130px;
+  left: 250px;
+}
+.task {
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.add {
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+.list {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.list1 {
+  font-weight: 50;
+  opacity: 0.3;
+}
+
+.list2 {
+  font-size: 40px;
+  font-weight: 50;
+  font-family: sans-serif;
+}
+
+/* .box {
+  display: flex;
+  flex-direction: row;
+} */
+.box1 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: -150px;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.box2 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.box3 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 450px;
+  right: 50px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.box4 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  right: 50px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+.box5 {
+  border: 1px solid red;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  position: absolute;
+  top: 150px;
+  left: 1050px;
+  right: 50px;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 10px 10px 5px gray;
+}
+
+.trip1 {
+  color: rgb(223, 115, 133);
+  font-size: 30px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+hr {
+  position: absolute;
+  width: 200px;
+  left: 50px;
+  top: 60px;
+}
+
+.trip2 {
+  color: red;
+  font-size: 30px;
+  text-decoration: line-through;
+  padding: 20px;
+}
+.trip3 {
+  font-size: 25px;
+}
+.ancher {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  body {
+    top: 0;
+    left: 0;
+  }
+  .hor-row-design {
+    display: none;
+  }
+  .box {
+    flex-direction: column;
+  }
+  .box1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 225px;
+    height: 60px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .trip1 {
+    color: rgb(223, 115, 133);
+    font-size: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  .trip2 {
+    display: none;
+  }
+  .trip3 {
+    display: none;
+  }
+  .box2 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 225px;
+    height: 60px;
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .box3 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 225px;
+    height: 60px;
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    right: 10px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .box4 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 225px;
+    height: 60px;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    right: 50px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .box5 {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 225px;
+    height: 60px;
+    position: absolute;
+    top: 550px;
+    left: 10px;
+    right: 50px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+  }
+  .task {
+    margin-left: 10px;
+  }
+  .add {
+    float: right;
+    margin-top: 20px;
+    margin-left: -50px;
+  }
+  .list {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  .list1 {
+    font-weight: 50;
+    opacity: 0.3;
+  }
+  .plus-circle {
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    height: 50px;
+  }
+}

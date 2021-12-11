@@ -1,0 +1,70 @@
+html,
+body {
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  margin-top: 230px;
+  margin-left: 450px;
+  background-color: white;
+  height: 150px;
+  width: 300px;
+  position: absolute;
+  top: 100px;
+  left: 170px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.image {
+  filter: blur(6px);
+  margin-left: 140px;
+}
+
+input[type="text"] {
+  border: 1px solid red;
+  padding: 15px 20px;
+  margin-top: 20px;
+  width: 230px;
+  height: 1px;
+  border-radius: 4px;
+}
+.font-color {
+  color: red;
+}
+.submit-btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 16px;
+  align-content: center;
+  background-color: orangered;
+  color: whitesmoke;
+}
+.submit-btn1 {
+  padding-top: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .image {
+    filter: blur(9px);
+    margin-left: -460px;
+    margin-top: -40px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    margin-top: 140px;
+    margin-left: -155px;
+    background-color: white;
+    height: 150px;
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+}
